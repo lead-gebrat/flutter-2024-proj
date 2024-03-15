@@ -1,8 +1,8 @@
 # flutter-2024-proj
-##Section 1
-##Group Title
+## Section 1
+## Group Title
 
-###Zemnanit Hair Salon Appointment Scheduling
+### Zemnanit Hair Salon Appointment Scheduling
 Description
 Zemnanit hair salon appointment scheduling application is designed to make booking appointments easier for customers and salon owners. 
 It provides a user-friendly platform where customers can effortlessly choose a convenient time slot for their hair appointments on a specific day. 
