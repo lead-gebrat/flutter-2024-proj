@@ -70,11 +70,11 @@ class _MyHomePageState extends State<MyHomePage> {
       backgroundColor: Color(0xFFF1CFC3),
       appBar: AppBar(
         title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget> [ 
-            Icon(Icons.cut,color: Colors.red, size: 35.0,),
+            Icon(Icons.cut, size: 35.0,),
             Text("Zemnanit Beauty Salon", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
-            
+            Icon(Icons.menu, size: 35.0, )
           ],
         ),
       ),
@@ -116,7 +116,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 color: Color.fromARGB(255, 249, 245, 245),
               ),
               child: TextButton.icon(
-                onPressed: ()=>{}, 
+                onPressed: ()=>{
+                  Navigator.push(context, 
+                  MaterialPageRoute(
+                    builder: (context)=> User()
+                   )
+                  )
+                }, 
               label: Text("Get Started", style: TextStyle(fontSize: 25 , color: Colors.purple, fontWeight: FontWeight.bold),),
               icon: Icon(Icons.play_arrow, size: 30,),
               ),
@@ -134,9 +140,7 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(_selectedIndex == 1 ? _selectedIcons[1] : _icons[1]),
             label: 'Create Account',
-          ),
-         
-        ],
+          ),],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.red[400],
         unselectedItemColor: Colors.black, // Color for unselected icons

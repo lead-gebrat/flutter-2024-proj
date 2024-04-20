@@ -17,6 +17,7 @@ class User extends StatefulWidget {
 
 class _UserState extends State<User> {
   bool _obscurePassword = true;
+  bool _obscureconfirm = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -161,16 +162,16 @@ class _UserState extends State<User> {
                 color: Colors.white,
               ),
               child: TextField(
-                obscureText: _obscurePassword,
+                obscureText: _obscureconfirm,
                 decoration: InputDecoration(
                   labelText: "  Enter your password",
                   suffixIcon: IconButton(
                     icon: Icon(
-                      _obscurePassword ? Icons.visibility : Icons.visibility_off
+                      _obscureconfirm ? Icons.visibility : Icons.visibility_off
                     ),
                     onPressed: (){
                       setState(() {
-                        _obscurePassword = !_obscurePassword;
+                        _obscureconfirm = !_obscureconfirm;
                       });
                     },
                   )
