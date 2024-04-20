@@ -1,9 +1,8 @@
 // ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
-import 'package:mobile_zemnanit_project/admin/add_salon.dart';
-import 'package:mobile_zemnanit_project/admin/login_admin.dart';
-import 'package:mobile_zemnanit_project/admin/my_salon.dart';
+import 'package:zemnanit/presentation/screens/admin/add_salon.dart';
+import 'package:zemnanit/presentation/screens/admin/login_admin.dart';
+import 'package:zemnanit/presentation/screens/admin/my_salon.dart';
 
 void main() {
   runApp(MyAPP());

@@ -1,9 +1,9 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:mobile_zemnanit_project/admin/add_salon.dart';
-import 'package:mobile_zemnanit_project/admin/login_admin.dart';
-import 'package:mobile_zemnanit_project/admin/manage_user.dart';
+import 'package:zemnanit/presentation/screens/admin/add_salon.dart';
+import 'package:zemnanit/presentation/screens/admin/login_admin.dart';
+import 'package:zemnanit/presentation/screens/admin/manage_user.dart';
 
 void main() {
   runApp(MyApp());
@@ -111,8 +111,8 @@ class _MySalonState extends State<MySalon> {
                       Container(
                         height: 100,
                         width: 100,
-                        child: Image.asset('../../assets/hair2.jpg',
-                            fit: BoxFit.cover),
+                        child:
+                            Image.asset('assets/hair2.jpg', fit: BoxFit.cover),
                       ),
                       SizedBox(width: 20),
                       Column(

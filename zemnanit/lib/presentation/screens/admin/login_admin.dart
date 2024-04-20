@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_zemnanit_project/admin/add_salon.dart';
-import 'package:mobile_zemnanit_project/admin/login_admin.dart';
+import 'package:zemnanit/presentation/screens/admin/add_salon.dart';
+
 
 void main() {
   runApp(MaterialApp(debugShowCheckedModeBanner: false, home: LoginAdmin()));

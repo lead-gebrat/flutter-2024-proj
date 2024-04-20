@@ -1,7 +1,6 @@
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'appointments.dart';
-import 'booking.dart';
 import 'salons.dart';
 import 'home_bf_login.dart';
 // import 'package:flutter/widgets.dart';

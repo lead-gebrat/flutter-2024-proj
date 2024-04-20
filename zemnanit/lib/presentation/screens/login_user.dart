@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zemnanit/home.dart';
-import 'package:zemnanit/home_bf_login.dart';
+import 'package:zemnanit/presentation/screens/home.dart';
 import 'salons.dart';
 void main() {
   runApp(MaterialApp(

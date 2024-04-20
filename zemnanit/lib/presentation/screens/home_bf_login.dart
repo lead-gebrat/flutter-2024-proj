@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'package:zemnanit/create_user.dart';
-import 'package:zemnanit/login_user.dart';
+import 'package:zemnanit/presentation/screens/create_user.dart';
+import 'package:zemnanit/presentation/screens/login_user.dart';
 
 
 void main() {
